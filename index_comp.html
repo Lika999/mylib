@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MYLIB_2</title>
+	<meta charset="UTF-8">
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="logo">
+			&lt;!--MYLIB--&gt;	
+			</div>
+			<nav class="nav-menu">
+				<span><a href="index.html">ELEMENTS</a></span>
+				<span><a href="#">COMPONENTS</a></span>
+				<span><a href="index_layouts.html">LAYOUTS</a></span>
+				<span><a href="#">DRAFTS</a></span>
+				<span><a href="#">DOCUMENTATION</a></span>
+			</nav>
+		</header>	
+		<main class="main">
+			<div class="sidebar"> 
+				<nav class="sidebar-container">
+					<ul class="sb-menu">
+						<li><a href="#"><b>CHEVRON MENU</b></a></li>
+						<li><a href="#">DROPDOWN MENU</a></li>
+						<li><a href="#">MODAL BOX</a></li>
+						<li><a href="#">ALLERTS</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="content">
+					<h1 class="top"><b>CHEVRON</b></h1>
+            	<div class="symbol-block">
+              		<img class="img" src="img/info.svg" alt="">
+              		<div class="symboltxt">
+		              	<p>Possible to use on gradient background</p>
+						<p>Easy to use opacity for items background</p>
+						<p>Cross-browser</p>
+					</div>				
+            	</div>
+            	<div class="menu-body-gradient">
+					<ul class="list-gr">
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">CAREERS</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+				</div>
+				<div class="fieldset">
+					<span class="legend">HTML</span>
+					<div class="code-block">
+						<p>&lt;div class="menu-body-gradient"&gt;</p>
+						<p>&lt;ul class="list-gr"&gt;</p>
+						<p>&lt;li&gt;&lt;a href="#"&gt;ABOUT&lt;/a&gt;&lt;/li&gt;</p>
+						<p>&lt;li&gt;&lt;a href="#"&gt;CAREERS&lt;/a&gt;&lt;/li&gt;</p>
+						<p>&lt;li&gt;&lt;a href="#"&gt;FAQ&lt;/a&gt;&lt;/li&gt;</p>
+						<p>&lt;li&gt;&lt;a href="#"&gt;CONTACT&lt;/a&gt;&lt;/li&gt;</p>
+						<p>&lt;/ul&gt;</p>
+						<p>&lt;/div&gt;</p>
+					</div>
+				</div>
+				<div class="fieldset">
+					<span class="legend">CSS</span>
+					<div class="code-block">
+						<p>div.menu-body-gradient  {
+							<p>height: 96px;</p>
+							<p>padding: 2px 0;</p>
+							<p>background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 127.92%);</p>
+						<p>}</p>
+						<p>ul.list-gr {</p>
+							<p>margin:0;</p>
+							<p>padding: 0 60px;</p>
+							<p>text-align: right;</p>
+						<p>}</p>
+						<p>ul.list-gr li {</p>
+							<p>display: inline-block;</p>
+							<p>position: relative;</p>
+							<p>padding: 30px 25px 29px 25px;</p>
+							<p>margin: 0 20px 0 25px;</p>
+							<p>background-color: #ffffff;</p>
+							<p>font-family: Helvetica;</p>
+							<p>font-style: normal;</p>
+							<p>font-weight: normal;</p>
+							<p>font-size: 32px;</p>
+							<p>line-height: 37px;</p>
+						}</p>
+						<p>ul.list-gr li:hover {</p>
+							<p>opacity: 0.7;</p>
+						}</p>
+						<p>ul.list-gr li::after {</p>
+							<p>position: absolute;</p>
+							<p>top:0;</p>
+							<p>left: 100%;</p>
+							<p>content: "";</p>
+							<p>width: 0;</p>
+							<p>height: 0;</p>
+							<p>border-style: solid;</p>
+							<p>border-width: 48px 0 48px 25px;</p>
+							<p>border-color: transparent transparent transparent #ffffff;</p>
+						}</p>
+						<p>ul.list-gr li > a {</p>
+							<p>vertical-align: top;</p>
+							<p>text-decoration: none;</p>
+							<p>color: #000000;</p>
+						}</p>
+						<p>ul.list-gr li > a::after {</p>
+							<p>position: absolute;</p>
+							<p>left: -25px;</p>
+							<p>top: 0px;</p>
+							<p>content: "";</p>
+							<p>width: 0;</p>
+							<p>height: 0;</p>
+							<p>border-style: solid;</p>
+							<p>border-width: 0 25px 48px 0;</p>
+							<p>border-color: transparent #ffffff transparent transparent;</p>
+						}</p>
+						<p>ul.list-gr li > a::before {</p>
+							<p>position: absolute;</p>
+							<p>left: -25px;</p>
+							<p>top: 48px;</p>
+						 	<p>content: "";</p>
+						 	<p>width: 0;</p>
+						 	<p>height: 0;</p>
+						 	<p>border-style: solid;</p>
+						 	<p>border-width: 0 0 48px 25px;</p>
+						 	<p>border-color: transparent transparent #ffffff transparent;</p>				
+						 }</p>
+					</div>
+				</div>
+			</div>	
+    	</main>
+	</div>
+</body> 
+</html>
+
+
+
